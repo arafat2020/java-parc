@@ -1,6 +1,7 @@
 package com.practice;
 
 import java.util.Hashtable;
+import java.util.Set;
 
 public class WordSearch {
 
@@ -19,6 +20,29 @@ public class WordSearch {
             charCount.put(c, charCount.get(c) - 1);
         }
         return true;        
+    }
+
+
+    public boolean existOptimized(char[][] board, String word) {
+        int rows = board.length;
+        int cols = board[0].length;
+        Set<String> visited = new java.util.HashSet<>();
+        Hashtable<Character, Integer> charCount = new Hashtable<>();
+        
+        for (char[] topIndex : board) {
+            for (char c : topIndex) {
+                charCount.put(c, charCount.getOrDefault(c, 0) + 1);
+            }
+        }
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                // if (dfs(board, word, 0, i, j, visited)) {
+                //     return true;
+                // }
+            }
+        }
+        return false;
     }
 
     public static void main(String[] args) {
