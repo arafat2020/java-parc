@@ -1,7 +1,9 @@
 package com.dsa;
 
 public class BubbleSort {
-    public static void bubbleSort(int[] arr){
+
+    //this is an improved version of bubble sort, but slightly improved if the array is already sorted
+    public static void bubbleSortImproved(int[] arr){
         int length = arr.length;
         boolean swapped;
 
@@ -22,6 +24,22 @@ public class BubbleSort {
 
         }
     }
+
+    public static void bubbleSortClassic(int[] arr){
+        int length = arr.length;
+
+        for (int i = 0; i < length - 1; i++) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
+                if(arr[j] > arr[j+1]){
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+    }
+
+
     public static void main(String[] args) {
         int[] numbers = {5, 3, 8, 4, 2};
 
@@ -30,7 +48,7 @@ public class BubbleSort {
             System.out.print(num + " ");
         }
 
-        bubbleSort(numbers);
+        bubbleSortImproved(numbers);
 
         System.out.println("\nAfter Sorting:");
         for (int num : numbers) {
