@@ -13,6 +13,7 @@ public class QuickSort {
         int j = high + 1;
 
         while (true) {
+            
             do {
                 i++;
             } while (arr[i] < pivot);
