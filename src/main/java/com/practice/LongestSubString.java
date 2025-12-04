@@ -10,7 +10,7 @@ public class LongestSubString {
         int max_length = 0;
         Set<Character> char_set = new HashSet<>();
         char[] char_array = string.toCharArray();
-        for (int right_pointer= 0; right_pointer< char_array.length; right_pointer++) {
+        for (int right_pointer = 0; right_pointer < char_array.length; right_pointer++) {
             char current_char = char_array[right_pointer];
             while (char_set.contains(current_char)) {
                 if (char_set.contains(current_char)) {
@@ -18,15 +18,12 @@ public class LongestSubString {
                     left_pointer++;
                 }
 
-               
-
-                
             }
-             char_set.add(current_char);
-            max_length = Math.max(max_length, right_pointer - left_pointer +1 );
+            char_set.add(current_char);
+            max_length = Math.max(max_length, right_pointer - left_pointer + 1);
         }
 
-       return max_length;
+        return max_length;
     }
 
     public static void main(String[] args) {
