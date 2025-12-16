@@ -165,8 +165,8 @@ Or use your IDE to run individual files directly.
 #### 🔹 Median of Two Sorted Arrays (LeetCode #4)
 
 **Problem:** Find median of two sorted arrays.  
-**Approach:** Merge and find median (brute force)  
-**Complexity:** O(m + n) time, O(m + n) space  
+**Approach:** Two-pointer merge technique (optimized)  
+**Complexity:** O(m + n) time, O(1) space  
 **File:** [MedianOfTwoSortedArray.java](src/main/java/com/practice/MedianOfTwoSortedArray.java)
 
 #### 🔹 Quick Sort
