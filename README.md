@@ -185,18 +185,19 @@ Or use your IDE to run individual files directly.
 | 3   | Combination Sum             | Medium     | Backtracking     | [CombinationSum.java](src/main/java/com/practice/CombinationSum.java)                 |
 | 4   | Group Anagrams              | Medium     | Hash Table       | [GroupAnagram.java](src/main/java/com/practice/GroupAnagram.java)                     |
 | 5   | Last Stone Weight           | Easy       | Heap             | [LastStoneWeight.java](src/main/java/com/practice/LastStoneWeight.java)               |
-| 6   | Longest Substring           | Medium     | Sliding Window   | [LongestSubString.java](src/main/java/com/practice/LongestSubString.java)             |
-| 7   | Lucky Number                | Easy       | Math             | [LuckyNumber.java](src/main/java/com/practice/LuckyNumber.java)                       |
-| 8   | Median of Two Sorted Arrays | Hard       | Binary Search    | [MedianOfTwoSortedArray.java](src/main/java/com/practice/MedianOfTwoSortedArray.java) |
-| 9   | Merge Two Sorted Arrays     | Easy       | Two Pointers     | [MergeTwoSortedArray.java](src/main/java/com/practice/MergeTwoSortedArray.java)       |
-| 10  | Missing Number              | Easy       | Math/Bit         | [MissingNumber.java](src/main/java/com/practice/MissingNumber.java)                   |
-| 11  | Remove Duplicates II        | Medium     | Array            | [RemoveDuplicateTwo.java](src/main/java/com/practice/RemoveDuplicateTwo.java)         |
-| 12  | Reverse Linked List         | Easy       | Linked List      | [ReversedLinkedList.java](src/main/java/com/practice/ReversedLinkedList.java)         |
-| 13  | Rotting Oranges             | Medium     | BFS/Graph        | [RottingOrange.java](src/main/java/com/practice/RottingOrange.java)                   |
-| 14  | Single Number               | Easy       | Bit Manipulation | [SingleNumber.java](src/main/java/com/practice/SingleNumber.java)                     |
-| 15  | Three Sum                   | Medium     | Two Pointers     | [ThreeSum.java](src/main/java/com/practice/ThreeSum.java)                             |
-| 16  | Container With Most Water   | Medium     | Two Pointers     | [WaterContainer.java](src/main/java/com/practice/WaterContainer.java)                 |
-| 17  | Word Search                 | Medium     | Backtracking/DFS | [WordSearch.java](src/main/java/com/practice/WordSearch.java)                         |
+| 6   | Longest Palindromic Substring | Medium     | String/Two Pointers | [LongestPalindromicSubstring.java](src/main/java/com/practice/LongestPalindromicSubstring.java) |
+| 7   | Longest Substring           | Medium     | Sliding Window   | [LongestSubString.java](src/main/java/com/practice/LongestSubString.java)             |
+| 8   | Lucky Number                | Easy       | Math             | [LuckyNumber.java](src/main/java/com/practice/LuckyNumber.java)                       |
+| 9   | Median of Two Sorted Arrays | Hard       | Binary Search    | [MedianOfTwoSortedArray.java](src/main/java/com/practice/MedianOfTwoSortedArray.java) |
+| 10  | Merge Two Sorted Arrays     | Easy       | Two Pointers     | [MergeTwoSortedArray.java](src/main/java/com/practice/MergeTwoSortedArray.java)       |
+| 11  | Missing Number              | Easy       | Math/Bit         | [MissingNumber.java](src/main/java/com/practice/MissingNumber.java)                   |
+| 12  | Remove Duplicates II        | Medium     | Array            | [RemoveDuplicateTwo.java](src/main/java/com/practice/RemoveDuplicateTwo.java)         |
+| 13  | Reverse Linked List         | Easy       | Linked List      | [ReversedLinkedList.java](src/main/java/com/practice/ReversedLinkedList.java)         |
+| 14  | Rotting Oranges             | Medium     | BFS/Graph        | [RottingOrange.java](src/main/java/com/practice/RottingOrange.java)                   |
+| 15  | Single Number               | Easy       | Bit Manipulation | [SingleNumber.java](src/main/java/com/practice/SingleNumber.java)                     |
+| 16  | Three Sum                   | Medium     | Two Pointers     | [ThreeSum.java](src/main/java/com/practice/ThreeSum.java)                             |
+| 17  | Container With Most Water   | Medium     | Two Pointers     | [WaterContainer.java](src/main/java/com/practice/WaterContainer.java)                 |
+| 18  | Word Search                 | Medium     | Backtracking/DFS | [WordSearch.java](src/main/java/com/practice/WordSearch.java)                         |
 
 ## 🛠 Tech Stack
 
