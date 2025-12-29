@@ -63,6 +63,7 @@ This repository serves as a **personal learning journey** and **portfolio showca
 ### Greedy & Dynamic Programming
 
 - **Best Price** - Optimization problem
+- **Coin Change II** - DP solution for number of ways
 - **Last Stone Weight** - Heap-based simulation
 
 ### Mathematical Problems
@@ -198,6 +199,7 @@ Or use your IDE to run individual files directly.
 | 16  | Three Sum                   | Medium     | Two Pointers     | [ThreeSum.java](src/main/java/com/practice/ThreeSum.java)                             |
 | 17  | Container With Most Water   | Medium     | Two Pointers     | [WaterContainer.java](src/main/java/com/practice/WaterContainer.java)                 |
 | 18  | Word Search                 | Medium     | Backtracking/DFS | [WordSearch.java](src/main/java/com/practice/WordSearch.java)                         |
+| 19  | Coin Change II              | Medium     | DP/Recursion     | [CoinChange.java](src/main/java/com/practice/CoinChange.java)                         |
 
 ## 🛠 Tech Stack
 
