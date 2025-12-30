@@ -37,11 +37,11 @@ public class RottingOrange {
         };
         while (!queue.isEmpty()) {
             int size = queue.size();
+            boolean infected = false;
             while (size-- > 0) {
                 int[] cell = queue.poll();
                 int m = cell[0];
                 int n = cell[1];
-                boolean infected = false;
                 for (int[] dir : directions) {
                     int i = m + dir[0];
                     int j = n + dir[1];
@@ -52,9 +52,9 @@ public class RottingOrange {
                         infected = true;
                     }
                 }
-
-                if (infected) {
-                    minutes++;}
+            }
+            if (infected) {
+                minutes++;
             }
         }
 
@@ -75,5 +75,9 @@ public class RottingOrange {
         };
         int result = rottingOrange.orangesRotting(grid);
         System.out.println("Minimum time to rot all oranges: " + result);
+
+        // Test case that would fail with original logic (should be 1)
+        int[][] grid2 = { { 2, 1 }, { 1, 2 } };
+        System.out.println("Test Case 2 (Expected 1): " + rottingOrange.orangesRotting(grid2));
     }
 }

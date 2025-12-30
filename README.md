@@ -177,6 +177,13 @@ Or use your IDE to run individual files directly.
 **Complexity:** O(n log n) average, O(n²) worst case  
 **File:** [QuickSort.java](src/main/java/com/dsa/QuickSort.java)
 
+#### 🔹 Rotting Oranges (LeetCode #994)
+
+**Problem:** Find minimum time to rot all oranges in grid.
+**Approach:** Breadth-First Search (BFS) with level-order traversal
+**Complexity:** O(m * n) time, O(m * n) space
+**File:** [RottingOrange.java](src/main/java/com/practice/RottingOrange.java)
+
 ### Complete Problem List
 
 | #   | Problem                     | Difficulty | Topics           | File                                                                                  |
