@@ -200,7 +200,7 @@ Or use your IDE to run individual files directly.
 | 10  | Merge Two Sorted Arrays     | Easy       | Two Pointers     | [MergeTwoSortedArray.java](src/main/java/com/practice/MergeTwoSortedArray.java)       |
 | 11  | Missing Number              | Easy       | Math/Bit         | [MissingNumber.java](src/main/java/com/practice/MissingNumber.java)                   |
 | 12  | Remove Duplicates II        | Medium     | Array            | [RemoveDuplicateTwo.java](src/main/java/com/practice/RemoveDuplicateTwo.java)         |
-| 13  | Reverse Linked List         | Easy       | Linked List      | [ReversedLinkedList.java](src/main/java/com/practice/ReversedLinkedList.java)         |
+| 13  | Reverse Linked List         | Easy       | Linked List      | [ReverseLinkedList.java](src/main/java/com/practice/ReverseLinkedList.java)           |
 | 14  | Rotting Oranges             | Medium     | BFS/Graph        | [RottingOrange.java](src/main/java/com/practice/RottingOrange.java)                   |
 | 15  | Single Number               | Easy       | Bit Manipulation | [SingleNumber.java](src/main/java/com/practice/SingleNumber.java)                     |
 | 16  | Three Sum                   | Medium     | Two Pointers     | [ThreeSum.java](src/main/java/com/practice/ThreeSum.java)                             |
