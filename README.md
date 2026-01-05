@@ -207,6 +207,7 @@ Or use your IDE to run individual files directly.
 | 17  | Container With Most Water   | Medium     | Two Pointers     | [WaterContainer.java](src/main/java/com/practice/WaterContainer.java)                 |
 | 18  | Word Search                 | Medium     | Backtracking/DFS | [WordSearch.java](src/main/java/com/practice/WordSearch.java)                         |
 | 19  | Coin Change II              | Medium     | DP/Recursion     | [CoinChange.java](src/main/java/com/practice/CoinChange.java)                         |
+| 20  | Zigzag Conversion           | Medium     | String           | [ZigzagConversion.java](src/main/java/com/practice/ZigzagConversion.java)             |
 
 ## 🛠 Tech Stack
 
