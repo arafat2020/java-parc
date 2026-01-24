@@ -59,16 +59,21 @@ This repository serves as a **personal learning journey** and **portfolio showca
 ### Backtracking & Recursion
 
 - **Combination Sum** - Finding all combinations that sum to target
+- **Letter Combinations of Phone Number** - Generate all letter combinations from phone digits
+- **Word Search** - Backtracking and DFS on 2D grid
 
 ### Greedy & Dynamic Programming
 
 - **Best Price** - Optimization problem
 - **Coin Change II** - DP solution for number of ways
 - **Last Stone Weight** - Heap-based simulation
+- **Target Sum** - DP with memoization to find ways to reach target
 
 ### Mathematical Problems
 
 - **Lucky Number** - Number theory and pattern recognition
+- **Palindrome Number** - Check if number is palindrome without string conversion
+- **Reverse Integer** - Reverse digits with overflow handling
 
 ## 🔧 Algorithms Implemented
 
@@ -208,6 +213,10 @@ Or use your IDE to run individual files directly.
 | 18  | Word Search                 | Medium     | Backtracking/DFS | [WordSearch.java](src/main/java/com/practice/WordSearch.java)                         |
 | 19  | Coin Change II              | Medium     | DP/Recursion     | [CoinChange.java](src/main/java/com/practice/CoinChange.java)                         |
 | 20  | Zigzag Conversion           | Medium     | String           | [ZigzagConversion.java](src/main/java/com/practice/ZigzagConversion.java)             |
+| 21  | Letter Combinations Phone   | Medium     | Backtracking     | [LetterCombinationsPhoneNumber.java](src/main/java/com/practice/LetterCombinationsPhoneNumber.java) |
+| 22  | Palindrome Number           | Easy       | Math             | [PalindromeNumber.java](src/main/java/com/practice/PalindromeNumber.java)             |
+| 23  | Reverse Integer             | Medium     | Math/String      | [ReverseInteger.java](src/main/java/com/practice/ReverseInteger.java)                 |
+| 24  | Target Sum                  | Medium     | DP/Memoization   | [TargetSum.java](src/main/java/com/practice/TargetSum.java)                           |
 
 ## 🛠 Tech Stack
 
